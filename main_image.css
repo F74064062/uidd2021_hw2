@@ -1,0 +1,94 @@
+.main{
+    position: relative;
+    text-align: center;
+}
+
+.main_size{
+    width: 100%;
+    height: auto;
+}
+
+.bench{
+    position: absolute;
+    top: 65%;
+    left: 21.3%;
+    width:17.7%;
+    height:auto;
+    max-width:100%;
+}
+.bench:hover{
+    transform :scale(1.1);
+}
+
+.chair{
+    position: absolute;
+    top: 56.4%;
+    right: 9.2%;
+    width:22.7%;
+    height:auto;
+    max-width:100%;
+}
+
+.chair:hover{
+    transform :scale(1.1);
+}
+
+.chair2{
+    position: absolute;
+    top: 64.15%;
+    right: 43.7%;
+    width:8.4%;
+    height:auto;
+    max-width:100%;
+}
+.chair2:hover{
+    transform :scale(1.1);
+}
+
+.chair3{
+    position: absolute;
+    top: 60.7%;
+    left: 39.5%;
+    width:11.3%;
+    height:auto;
+    max-width:100%;
+}
+.chair3:hover{
+    transform :scale(1.1);
+}
+
+.light{
+    position: absolute;
+    right: 33.5%;
+    width:9.6%;
+    height:auto;
+    max-width:100%;
+}
+.light:hover{
+    transform :scale(1.1);
+}
+
+.painting{
+    position: absolute;
+    top: 22.2%;
+    right: 45%;
+    width:7%;
+    height:auto;
+    max-width:100%;
+}
+
+.painting:hover{
+    transform :scale(1.1);
+}
+
+.pillow{
+    position: absolute;
+    top: 47%;
+    left: 38.3%;
+    width:9.2%;
+    height:auto;
+    max-width:100%;
+}
+.pillow:hover{
+    transform :scale(1.1);
+}

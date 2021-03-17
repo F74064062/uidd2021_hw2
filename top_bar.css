@@ -1,0 +1,91 @@
+.bar{
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(119, 115, 115);
+  }
+
+.room-icon{
+    position: absolute;
+    top: 54.5%;
+    left: 9.2%;
+    font-family:"character";
+    font-size:1.5vw;
+  }
+.room-icon:hover{
+    transform :scale(1.1);
+}
+
+.product-icon{
+    position: absolute;
+    top: 54.5%;
+    left: 22.4%;
+    font-family:"character";
+    font-size:1.5vw;
+}
+.product-icon:hover{
+    transform :scale(1.1);
+}
+
+.sale-icon{
+    position: absolute;
+    top: 54.5%;
+    left: 36.8%;
+    font-family:"character";
+    font-size:1.5vw;
+}
+.sale-icon:hover{
+    transform :scale(1.1);
+}
+
+.contact-icon{
+    position: absolute;
+    top: 54.5%;
+    left: 49.2%;
+    font-family:"character";
+    font-size:1.5vw;
+}
+.contact-icon:hover{
+    transform :scale(1.1);
+}
+
+.user{
+    position: absolute;
+    top: 12%;
+    right: 12.5%;
+    max-width:100%;
+    width:5.3%;
+    height:auto;
+}
+.user:hover{
+    transform :scale(1.1);
+}
+
+.fav{
+    position: absolute;
+    top: 24%;
+    right: 8.5%;
+    max-width:100%;
+    width:4.3%;
+    height:auto;
+}
+.fav:hover{
+    transform :scale(1.1);
+}
+
+.shop{
+    position: absolute;
+    top: 23.4%;
+    right: 4.3%;
+    max-width:100%;
+    width:4.7%;
+    height:auto;
+}
+
+.shop:hover{
+    transform :scale(1.1);
+}

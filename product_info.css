@@ -1,0 +1,80 @@
+.product_info{
+    width: 100%;
+    height: auto;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+  }
+
+.bottom_info{
+    position: relative;
+    text-align: center;
+}
+
+
+.bottom_bar{
+    width: 100%;
+    height: auto;
+}
+
+.fb_icon{
+    position: absolute;
+    top: 37%;
+    left :12%;
+    max-width:100%;
+    width:2%;
+    height:auto;
+}
+.fb_icon:hover{
+    transform :scale(1.1);
+}
+
+.ig_icon{
+    position: absolute;
+    top: 37%;
+    left :15%;
+    max-width:100%;
+    width:2%;
+    height:auto;
+}
+.ig_icon:hover{
+    transform :scale(1.1);
+}
+.line_icon{
+    position: absolute;
+    top: 37%;
+    left :18%;
+    max-width:100%;
+    width:2%;
+    height:auto;
+}
+.line_icon:hover{
+    transform :scale(1.1);
+}
+
+
